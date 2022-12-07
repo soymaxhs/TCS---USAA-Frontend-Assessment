@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>USAA Frontend Assessment</title>
+        <link
+            href='https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic'
+            rel='stylesheet'>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="src/css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <nav class='nav-container'>
+                    <button>Logo</button>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Generic Schedule</a></li>
+                        <li><a href="#">Generic Text</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <div class="text-header-icon">
+                        <h6 class="text-header">Text <strong>Everyday,
+                                Everything,
+                                Everywhere <br></strong> adn your generic text
+                            <strong> fully-founded Text</strong></h6>
+                    </div>
+                    <form action="#" class="form">
+                        <input type="email" name="email" id="form-email"
+                            placeholder="Email address">
+                        <select name="districts" id="form-district">
+                            <option disabled selected hidden
+                                class="placeholder">Select your District</option>
+                            <option value="1">District 1</option>
+                            <option value="2">District 2</option>
+                            <option value="3">District 3</option>
+                            <option value="4">District 4</option>
+                            <option value="5">District 5</option>
+                            <option value="6">District 6</option>
+                            <option value="7">District 7</option>
+                            <option value="8">District 8</option>
+                            <option value="9">District 9</option>
+                            <option value="10">District 10</option>
+                        </select>
+                        <button type="button">GO</button>
+                    </form>
+
+                    <form action="#" class="form">
+                        <input id="check-box" class="form-checkbox"
+                            type="checkbox"/>
+                        <label for="check-box" class="form-label">I'd like to
+                            receive updates from Generic Text about this program</label>
+                    </form>
+                </div>
+            </header>
+            <div class="counter">
+                <h5 class="counter-text">There are currently</h5>
+                <h1 id='counter-value' value='1423'></h1>
+                <h5 class="counter-text">Pledges from the 10 Districts of City,
+                    ST.</h5>
+            </div>
+            <div class="separator">
+                <img src="src/img/recycle-circle.png" alt="recycle-circle">
+            </div>
+            <div class="leaderboard">
+                <h6 class="leaderboard-text">LEADERBOARD</h6>
+                <div class="container-leaderboard">
+                    <div class="animated-progress">
+                        <p>District 1</p>
+                        <progress class="animated-progress-bar" max="112" value="0"></progress>
+                        <span class="animated-progress-span"></span>
+                    </div>
+                    <div class="animated-progress">
+                        <p>District 2</p>
+                        <progress class="animated-progress-bar" max="98" value="0"></progress>
+                        <span class="animated-progress-span"></span>
+                    </div>
+                    <div class="animated-progress">
+                        <p>District 3</p>
+                        <progress class="animated-progress-bar" max="119" value="0"></progress>
+                        <span class="animated-progress-span"></span>
+                    </div>
+                    <div class="animated-progress">
+                        <p>District 4</p>
+                        <progress class="animated-progress-bar" max="126" value="0"></progress>
+                        <span class="animated-progress-span"></span>
+                    </div>
+                    <div class="animated-progress">
+                        <p>District 5</p>
+                        <progress class="animated-progress-bar" max="129" value="0"></progress>
+                        <span class="animated-progress-span"></span>
+                    </div>
+                    <div class="animated-progress">
+                        <p>District 6</p>
+                        <progress class="animated-progress-bar" max="44" value="0"></progress>
+                        <span class="animated-progress-span"></span>
+                    </div>
+                    <div class="animated-progress">
+                        <p>District 7</p>
+                        <progress class="animated-progress-bar" max="118" value="0"></progress>
+                        <span class="animated-progress-span"></span>
+                    </div>
+                    <div class="animated-progress">
+                        <p>District 8</p>
+                        <progress class="animated-progress-bar" max="125" value="0"></progress>
+                        <span class="animated-progress-span"></span>
+                    </div>
+                    <div class="animated-progress">
+                        <p>District 9</p>
+                        <progress class="animated-progress-bar" max="101" value="0"></progress>
+                        <span class="animated-progress-span"></span>
+                    </div>
+                    <div class="animated-progress">
+                        <p>District 10</p>
+                        <progress class="animated-progress-bar" max="27" value="0"></progress>
+                        <span class="animated-progress-span"></span>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <p>©<span id="current-year"></span> Generic Text</p>
+            </footer>
+        </div>
+
+        <script src="src/js/helper.js"></script>
+        <script src="src/js/counterAnimation.js"></script>
+        <script src="src/js/progressBarAnimation.js"></script>
+        <script src="src/js/footer.js"></script>
+    </body>
+</html>
